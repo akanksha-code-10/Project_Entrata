@@ -46,7 +46,7 @@ public class Helper {
     /**
      * This method is used to close all open windows of the browser
      * */
-   // @AfterTest
+    @AfterTest
     public void closeBrowser(){
         driver.close();
     }
